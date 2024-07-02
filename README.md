@@ -112,7 +112,7 @@
 2. Navigate to the project directory: `cd proctor-real-estate`
 3. Install dependencies: `npm install`
 4. Set up environment variables for Firebase configuration.
-5. Start the development server: `npm start`
+5. Start the development server: `npm run dev`
 
 ### Development Plugins
 
