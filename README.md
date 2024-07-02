@@ -100,84 +100,21 @@
     -   user can view the details of a property
     -   favorites are unique to each user, but as local storage is used, they persist for a particular user even if they log out but only on the same device/browser
 
-# Dependencies
 
+### Technology Used
 
-# Dependencies
-### Tailwind CSS
+- **Frontend:** React, Tailwind CSS, Vite
+- **Authentication:** Firebase for secure authentication
 
-```bash
-npm install tailwindcss
-```
+### Steps to Clone and Run Locally
 
-### Reacter router dom
+1. Clone the repository from GitHub: `git clone https://github.com/your-repo-url.git`
+2. Navigate to the project directory: `cd proctor-real-estate`
+3. Install dependencies: `npm install`
+4. Set up environment variables for Firebase configuration.
+5. Start the development server: `npm start`
 
-```bash
-npm install react-router-dom
-```
+### Development Plugins
 
-### Animate CSS **(Challenge Part)**
-
-```bash
- npm install animate.css --save
-```
-
-### React Icons
-
-```bash
- npm install react-icons --save
-```
-
-### Firebase hosting
-
-```bash
- npm install firebase-tools --save
-```
-
-### React Firebase
-
-```bash
- npm install firebase --save
-```
-
-### React hot toast
-
-```bash
-npm install react-hot-toast
-```
-
-### react-tooltip
-
-```bash
-npm install react-tooltip
-```
-
-### React-fast-marquee
-
-```bash
-npm i react-fast-marquee
-```
-
-### React-swiper **(Challenge Part)**
-
-```bash
-npm install swiper
-```
-
-### React-Countup
-
-```bash
-npm i react-countup
-```
-
-### React-AOS **(Challenge Part)**
-
-```bash
-npm install aos --save
-```
-
-### React Router Hash Link
-
-```bash
-npm install --save react-router-hash-link
-```
+- **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md):** Uses Babel for Fast Refresh.
+- **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc):** Uses SWC for Fast Refresh.
